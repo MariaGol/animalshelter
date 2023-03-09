@@ -1,0 +1,49 @@
+.about {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.about-wrapper {
+    display: flex;
+    flex-grow: 1;
+    // min-width: 1200px;
+    align-self: center;
+}
+
+.about-pets {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+    img {
+        transform: translateX(44px);
+        // ИЛИ margin-left: 215px; но тогда надо отключить флекс
+    }
+}
+
+.about-text {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    &__header {
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: $lightgrey;
+        max-width: 370px;
+    }
+    &__subheader {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        color: $grey;
+        max-width: 430px;
+    }
+}

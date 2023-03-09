@@ -1,0 +1,72 @@
+.help {
+
+    &__header {
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: $lightgrey;
+        width: 320px;
+    }
+
+    &__first {
+        display: flex;
+        width: 1027px;
+        justify-content: space-between;
+
+        &__box1, &__box2, &__box3, &__box4, &__box5 {
+            
+            flex-direction: column;
+            height: 113px;
+            text-align: center;
+            p {
+                font-family: 'Georgia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 115%;
+                text-align: center;
+                letter-spacing: 0.06em;
+                color: $lightgrey;
+                padding-top: 30px;
+            }
+        }
+    }
+
+    &__second {
+        display: flex;
+        width: 1027px;
+        justify-content: space-around;
+
+        &__box6, &__box7, &__box8, &__box9 {
+            
+            flex-direction: column;
+            height: 113px;
+            text-align: center;
+            p {
+                font-family: 'Georgia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 115%;
+                text-align: center;
+                letter-spacing: 0.06em;
+                color: $lightgrey;
+                padding-top: 30px;
+            }
+        }
+    }
+}
+
+.help-wrapper {
+    // min-width: 1200px;
+    display: flex;
+    gap: 55px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}

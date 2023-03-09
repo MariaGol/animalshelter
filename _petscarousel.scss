@@ -1,0 +1,68 @@
+
+.pets {
+    background-color: $darkbackground;
+    .pets-wrapper {
+        // min-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+    }
+    &__header {
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: $lightgrey;
+        // min-width: 400px;
+        padding-bottom: 40px;
+
+    }
+    &__line-1 {
+        margin-top: 20px;
+        .carousel__cards {
+            gap: 30px;
+            justify-content: center;
+        }
+    }
+    &__line-2 {
+        margin-top: 54px;
+        .carousel__cards {
+            gap: 30px;
+            justify-content: center;
+        }
+    }
+    &__scroll {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 81px;
+        margin-bottom: 100px;
+        .round1, .round2, .round3, .round4, .round5 {
+            width: 52px;
+            height: 52px;
+            border-radius: 100px;
+            border: 2px solid $subtitle;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .round3 {
+            background-color: $primary;
+            border: none;
+            color: $dark-3xl;
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 115%;
+            letter-spacing: 0.06em;
+        }
+        .round4, .round5 {
+            border: 2px solid $primary;
+        }
+    }
+}
+
